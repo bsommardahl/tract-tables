@@ -1,0 +1,7 @@
+tr.winner td { background-color: rgb(255, 140, 143)}
+
+table.totalsTable {
+ border: solid 1px black;
+}
+
+td.per-acre { text-align: right; }
