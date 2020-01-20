@@ -1,7 +1,7 @@
 import React from 'react';
 import BidTable from '../components/BidTable';
 import TotalsTable from '../components/TotalsTable';
-import {Container, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../style.css';
 
@@ -21,10 +21,12 @@ export default class CombinedView extends React.Component {
     return <Container>
       <Row>
         <Col>
+          <h2 class="title">Winning Bids</h2>
           <BidTable bids={winningBids} no-data-message="There are no winning bids." />
           <TotalsTable saleTotal={saleTotal} perAcreTotal={perAcreTotal} />
         </Col>
         <Col>
+          <h2 class="title">Second Place Bids</h2>
           <BidTable bids={secondPlaceBids} no-data-message="There are no second place bids." />
         </Col>
       </Row>

@@ -1,6 +1,5 @@
 import React from 'react';
 import Table from 'react-bootstrap/Table'
-import Alert from 'react-bootstrap/Alert'
 import 'bootstrap/dist/css/bootstrap.css';
 import '../style.css';
 
